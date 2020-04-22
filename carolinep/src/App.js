@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar/Navbar'
+import  Home  from './components/Home/Home'
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,7 @@ handleScroll = (e) => {
         <Navbar
         className={visible ? "navbar is-transparent" : "navbar is-fixed"}
         />
+        <Home/>
       </div>
     );
   }

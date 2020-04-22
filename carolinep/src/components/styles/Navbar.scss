@@ -9,10 +9,23 @@
     justify-content: space-between;
     box-shadow: -10px 0px 20px -5px grey;
     padding: 0px 20px !important;
+    width: 100%;
 }
 
 .is-fixed {
     position: fixed !important;
+}
+
+.navbar-brand {
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 100%;
+    }
 }
 
 

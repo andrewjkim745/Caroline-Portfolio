@@ -9,7 +9,6 @@ export const Navbar = (props) => {
     return (
         <nav className={props.className}>
             <div class="navbar-brand">
-                {/* Insert phoneFixIt logo here */}
                 <a class="navbar-item">
                     <div class='column'>
                         <h1 class='title is-size-4'>
@@ -51,7 +50,7 @@ export const Navbar = (props) => {
                     </div>
                 </div>
                 <div class="navbar-end">
-                    <a class='navbar-item'>
+                    <a class='navbar-item is-size-4-fullhd is-size-6-desktop'>
                         Contact
                     </a>
                 </div>
