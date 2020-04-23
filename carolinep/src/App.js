@@ -10,12 +10,13 @@ class App extends React.Component {
 
     this.state = {
       windowSize: 0,
-      visible: false,
+      visible: true,
     }
   }
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
+    console.log(window.pageYOffset)
 }
 
 componentWillUnmount() {
@@ -23,10 +24,10 @@ componentWillUnmount() {
 }
 
 handleScroll = (e) => {
-  if (window.pageYOffset > 35) {
+  if (window.pageYOffset > 40) {
       console.log('scrolled')
       this.setState({
-          visible: false,
+          visible: false, 
       })
   } else {
       this.setState({

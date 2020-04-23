@@ -96,11 +96,11 @@ export default class Home extends Component {
                         <h1 class="title">Piano Lessons</h1>
                         <div class="box">
                             <div class="media-content">
-                                <h3 class="title is-size-6-mobile">Best for students who</h3>
+                                <h3 class="title is-size-4 is-size-6-mobile">Best for students who</h3>
                                 {this.renderBullets()}
-                                <h3 class="title is-size-6-mobile">Prepare For</h3>
+                                <h3 class="title is-size-4 is-size-6-mobile">Prepare For</h3>
                                 {this.renderBullets2()}
-                                <h3 class="title is-size-6-mobile">Locations</h3>
+                                <h3 class="title is-size-4 is-size-6-mobile">Locations</h3>
                                 {this.renderBullets3()}
                             </div>
                         </div>
