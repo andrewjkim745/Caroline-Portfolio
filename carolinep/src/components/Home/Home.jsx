@@ -109,7 +109,7 @@ export default class Home extends Component {
                 </div>
                 <HomeHeroContainer
                     title='About'
-                    description='Renowned soloist, chamber musician, pedagogue, and adjudicator Rasa Vitkauskaite teaches a large number of students at the Concord Conservatory of Music, in her private studio, and as an Artist Teacher at the Cambridge Music Consortium, where she also offers lessons for Conservatory level pianists and college students. The long-serving, critically acclaimed pianist of the Boston Philharmonic Orchestra, Rasa is also a member of the Music Teachers National Association, the Massachusetts Music Teachers Association, and Pi Kappa Lambda National Music Honor Society.'
+                    description='Renowned soloist, chamber musician, and educator, Caroline Park teaches a large number of students at Concordia College, and in her private studio, where she also offers lessons for Conservatory level pianists and college students. Caroline graduated from The Juilliard School of Music and Yale University.'
                     />
             </>
         )

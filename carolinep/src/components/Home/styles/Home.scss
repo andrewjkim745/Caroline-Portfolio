@@ -5,3 +5,11 @@
 .has-margin {
     margin-right: 20px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .has-padding {
+        padding: 0px;
+    }
+}
