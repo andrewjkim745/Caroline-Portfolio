@@ -60,19 +60,24 @@ export const thirdBullets = [
 
 export const quotes = [
     {
+        id: 1,
         quote: 'Very serious about her work and commitments, Caroline Park helped my daughter win 1st place at her most recent competition!',
-        name: 'Andrew Kim'
+        name: '"___Andrew Kim"'
     },
     {
+        id: 2,
         quote: 'Caroline has a very strong background in music and I am comfortable knowing my son is in good hands',
-        name: 'Andrea Kim'
+        name: '"___Andrea Kim"'
     },
     {
+        id: 3,
         quote: "Prices for lessons are very reasonable and the quality of teaching is very high. I highly recommend Caroline if you are serious about learning piano",
-        name: 'Drew Kim'
+        name: '"___Drew Kim"'
     },
     {
-        quote: "My daughter immediately got first at her most recent competition after she started taking lessons from Caroline. Great teacher who knows when to be strict while also "
+        id: 4,
+        quote: "My daughter immediately got first at her most recent competition after she started taking lessons from Caroline. Great teacher who knows when to be strict while also being understanding of limitations",
+        name: '"___Jiwon Kim"'
     }
 ]
 

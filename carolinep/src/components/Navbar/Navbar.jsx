@@ -11,10 +11,10 @@ export const Navbar = (props) => {
             <div class="navbar-brand">
                 <a class="navbar-item">
                     <div class='column'>
-                        <h1 class='title is-size-4'>
+                        <h1 class='title is-size-3'>
                             Caroline Park
                     </h1>
-                        <h3 class='subtitle is-size-5'>
+                        <h3 class='subtitle is-size-4'>
                             Pianist
                     </h3>
                     </div>

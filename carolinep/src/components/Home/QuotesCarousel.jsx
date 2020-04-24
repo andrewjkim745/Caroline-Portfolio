@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
+import { quotes } from '../../data'
 
 
 
@@ -25,30 +26,29 @@ class QuotesSlider extends React.Component {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 5,
-            slidesToScroll: 5
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: true,
+            autoplaySpeed: 3000
         }
 
 
         return (
-            <>
+            <div>
             <Slider {...settings}>
-                {/* <div class='container has-text-centered'>
-                    <h3>{props.quote1}</h3>
-                    <h3></h3>
-                </div>
-                <div class='container has-text-centered'>
-                    <h3>{props.quote2}</h3>
-                </div>
-                <div class='container has-text-centered'>
-                    <h3>{props.quote3}</h3>
-                </div>   
-                <div class='container has-text-centered'>
-                    <h3>{props.quote4}</h3>
-                </div>    */}
-                {props.children}
+            {quotes.map(quote => {
+                        return (
+                        <div class='container has-text-centered'>
+                            <h1 class="title is-size-4">{quote.quote}</h1>
+                            <h1 class="subtitle is-size-5">{quote.name}</h1>
+                        </div>
+                        )
+                    })}
             </Slider>
-            </>
+            </div>
         )
     }
 }
+
+export default QuotesSlider

@@ -1,13 +1,14 @@
 import React from 'react'
+import './styles/HomeColumns.scss'
 import QuotesCarousel from './QuotesCarousel'
-import { quotes } from '../../data'
+import grandpiano from '../../images/grandpiano.jpg'
 
 
 
 
 
 
-export default class HomeColumns extends React.Component {
+class HomeColumns extends React.Component {
     constructor(props) {
         super(props);
 
@@ -20,26 +21,27 @@ export default class HomeColumns extends React.Component {
 
 
 
-    renderSlider = () => {
+
+    render() {
         return (
-            <div class='column'>
-                <h1 class='title text-is-yellow'>
-                    What students and parents say:
-                <br></br>
-                    ""
-                </h1>
-                <Slider>
-                    {quotes.map(quote => {
-                        <div class='container has-text-centered'>
-                            <h1>{quote.quote}</h1>
-                            <h1>{quote.name}</h1>
-                        </div>
-                    })}
-                </Slider>
+            <>
+            <div class="columns">
+                <div class="column is-one-third">
+                    <img src={grandpiano} />
+                </div>
+                <div class="column is-one-third has-padding">
+                <h1 class="title has-text-centered">See What people are saying</h1>
+                <QuotesCarousel/>
+                </div>
+            
             </div>
+            
+            </>
         )
     }
 }
+
+export default HomeColumns
 
 
 

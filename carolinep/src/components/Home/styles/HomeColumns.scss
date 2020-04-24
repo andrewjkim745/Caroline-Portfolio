@@ -1,0 +1,10 @@
+.slider {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: scroll;
+    justify-content: flex-start;
+}
