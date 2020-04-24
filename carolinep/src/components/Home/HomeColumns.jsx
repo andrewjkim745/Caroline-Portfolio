@@ -2,6 +2,7 @@ import React from 'react'
 import './styles/HomeColumns.scss'
 import QuotesCarousel from './QuotesCarousel'
 import grandpiano from '../../images/grandpiano.jpg'
+import  HomeStudentForm  from './HomeStudentForm'
 
 
 
@@ -25,17 +26,20 @@ class HomeColumns extends React.Component {
     render() {
         return (
             <>
-            <div class="columns">
-                <div class="column is-one-third">
-                    <img src={grandpiano} />
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <img src={grandpiano} />
+                    </div>
+                    <div class="column is-one-third has-padding">
+                        <h1 class="title has-text-centered">See What people are saying</h1>
+                        <QuotesCarousel />
+                    </div>
+                    <div class="column is-one-third has-padding">
+                        <HomeStudentForm />
+                    </div>
+
                 </div>
-                <div class="column is-one-third has-padding">
-                <h1 class="title has-text-centered">See What people are saying</h1>
-                <QuotesCarousel/>
-                </div>
-            
-            </div>
-            
+
             </>
         )
     }

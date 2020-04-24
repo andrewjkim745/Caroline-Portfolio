@@ -5,6 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import { bullets, secondBullets, thirdBullets } from '../../data'
 import HomeHeroContainer from './HomeHeroContainer'
 import HomeColumns from './HomeColumns'
+import HomeStudentForm from './HomeStudentForm'
 
 export default class Home extends Component {
     constructor(props) {
