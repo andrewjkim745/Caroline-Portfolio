@@ -32,7 +32,7 @@ export default class HomeStudentForm extends React.Component {
 
     render() {
 
-        const { name, email, message } = this.state;
+        const { name, email, message, Location } = this.state;
 
 
         return (
@@ -54,7 +54,7 @@ export default class HomeStudentForm extends React.Component {
                             </label>
                         </p>
                         <p>
-                            <input className="input is-info" type="email" name="email" value={Location} onChange={this.handleChange} />
+                            <input className="input is-info" type="Location" name="Location" value={Location} onChange={this.handleChange} />
                             <label id='id-label'>
                                 Your Location
                             </label>

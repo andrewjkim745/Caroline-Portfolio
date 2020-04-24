@@ -26,7 +26,7 @@ class HomeColumns extends React.Component {
     render() {
         return (
             <>
-                <div class="columns">
+                <div class="columns has-padding-small">
                     <div class="column is-one-third">
                         <img src={grandpiano} />
                     </div>

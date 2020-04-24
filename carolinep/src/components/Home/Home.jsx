@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import pianoHome from '../../images/piano.jpg'
+import caroline from '../../images/caroline.jpeg'
 import './styles/Home.scss'
 import EmailIcon from '@material-ui/icons/Email';
 import { bullets, secondBullets, thirdBullets } from '../../data'
@@ -85,8 +85,8 @@ export default class Home extends Component {
             <>
                 <div class="columns has-padding">
                     <div class="column">
-                        <figure class="image is-2by3">
-                            <img src={pianoHome} />
+                        <figure class="image is-3by3">
+                            <img src={caroline} />
                         </figure>
                         <div class="is-flex">
                             <EmailIcon
