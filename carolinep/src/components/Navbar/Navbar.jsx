@@ -11,10 +11,10 @@ export const Navbar = (props) => {
             <div class="navbar-brand">
                 <a class="navbar-item">
                     <div class='column'>
-                        <h1 class='title is-size-3'>
+                        <h1 class='title is-size-2 is-size-4-mobile'>
                             Caroline Park
                     </h1>
-                        <h3 class='subtitle is-size-4'>
+                        <h3 class='subtitle is-size-3 is-size-5-mobile'>
                             Pianist
                     </h3>
                     </div>
@@ -34,11 +34,11 @@ export const Navbar = (props) => {
             </div>
             <div id="navbarNavigation" class="navbar-menu">
                 <div class="navbar-start">
-                    <Link to="/" class="navbar-item is-size-4-fullhd is-size-6-desktop">
+                    <Link to="/" class="navbar-item is-size-3-fullhd is-size-4-desktop">
                         Home
                      </Link>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-size-4-fullhd is-size-6-desktop is-dark">About</a>
+                        <a class="navbar-link is-size-3-fullhd is-size-4-desktop is-dark">About</a>
                         <div class="navbar-dropdown is-boxed">
                             <a class="navbar-item" href="https://www.facebook.com/phonefixitNY" target="_blank" rel="noopener noreferrer">
                                 <p>Biography</p>
@@ -50,7 +50,7 @@ export const Navbar = (props) => {
                     </div>
                 </div>
                 <div class="navbar-end">
-                    <a class='navbar-item is-size-4-fullhd is-size-6-desktop'>
+                    <a class='navbar-item is-size-3-fullhd is-size-4-desktop'>
                         Contact
                     </a>
                 </div>

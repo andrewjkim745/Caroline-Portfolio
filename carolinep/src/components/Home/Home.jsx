@@ -88,7 +88,7 @@ export default class Home extends Component {
                         <figure class="image is-3by3">
                             <img src={caroline} />
                         </figure>
-                        <div class="is-flex">
+                        <div class="is-flex has-margin-top">
                             <EmailIcon
                                 fontSize="large"
                             />
@@ -96,7 +96,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div class="column">
-                        <h1 class="title">Piano Lessons</h1>
+                        <h1 class="title is-size-2 is-size-4-mobile">Piano Lessons</h1>
                         <div class="box">
                             <div class="media-content">
                                 <h3 class="title is-size-4 is-size-6-mobile">Best for students who</h3>
