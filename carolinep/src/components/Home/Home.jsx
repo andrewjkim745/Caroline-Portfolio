@@ -4,6 +4,7 @@ import './styles/Home.scss'
 import EmailIcon from '@material-ui/icons/Email';
 import { bullets, secondBullets, thirdBullets } from '../../data'
 import HomeHeroContainer from './HomeHeroContainer'
+import { HomeColumns } from './HomeColumns'
 
 export default class Home extends Component {
     constructor(props) {
@@ -111,6 +112,7 @@ export default class Home extends Component {
                     title='About'
                     description='Renowned soloist, chamber musician, and educator, Caroline Park teaches a large number of students at Concordia College, and in her private studio, where she also offers lessons for Conservatory level pianists and college students. Caroline graduated from The Juilliard School of Music and Yale University.'
                     />
+                <HomeColumns/>
             </>
         )
     }

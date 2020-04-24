@@ -32,24 +32,21 @@ class QuotesSlider extends React.Component {
 
         return (
             <>
-            <h1 class='title'>
-                What students and parents say:
-                <br></br>
-                ""
-            </h1>
             <Slider {...settings}>
-                <div class='container has-text-centered'>
-                    <h3>{props.review}</h3>
+                {/* <div class='container has-text-centered'>
+                    <h3>{props.quote1}</h3>
+                    <h3></h3>
                 </div>
                 <div class='container has-text-centered'>
-                    <h3>{props.review2}</h3>
+                    <h3>{props.quote2}</h3>
                 </div>
                 <div class='container has-text-centered'>
-                    <h3>{props.review3}</h3>
+                    <h3>{props.quote3}</h3>
                 </div>   
                 <div class='container has-text-centered'>
-                    <h3>{props.review3}</h3>
-                </div>   
+                    <h3>{props.quote4}</h3>
+                </div>    */}
+                {props.children}
             </Slider>
             </>
         )
