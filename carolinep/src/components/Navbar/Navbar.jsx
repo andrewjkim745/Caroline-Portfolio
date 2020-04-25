@@ -20,7 +20,7 @@ export const Navbar = (props) => {
                     </div>
                 </a>
                 <a
-                    //   onClick={this.toggleHamburger}
+                      onClick={this.props.toggleHamburger}
                     role="button"
                     class="navbar-burger burger"
                     aria-label="menu"

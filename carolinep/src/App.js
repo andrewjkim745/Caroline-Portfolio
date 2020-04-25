@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Navbar } from './components/Navbar/Navbar'
+import  {Navbar} from './components/Navbar/Navbar'
 import  Home  from './components/Home/Home'
+import SideDrawer from './components/SideDrawer/SideDrawer'
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.Component {
     this.state = {
       windowSize: 0,
       visible: true,
+      open: false, 
     }
   }
 
@@ -34,6 +36,23 @@ handleScroll = (e) => {
           visible: true,
       })
   }
+}
+
+renderSideDrawer = () => {
+  return (
+    <>
+      <SideDrawer
+        show={this.state.open}
+        toggleHamburger={this.toggleHamburger}
+      />
+    </>
+  )
+}
+
+toggleHamburger = () => {
+  this.setState({
+    open: !this.state.open
+  })
 }
 
   render() {
