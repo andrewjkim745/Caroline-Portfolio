@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import  {Navbar} from './components/Navbar/Navbar'
 import  Home  from './components/Home/Home'
-import SideDrawer from './components/SideDrawer/SideDrawer'
+import { SideDrawer } from './components/SideDrawer/SideDrawer'
+import { BackDrop } from './components/SideDrawer/BackDrop'
 
 class App extends React.Component {
   constructor(props) {
@@ -38,13 +39,30 @@ handleScroll = (e) => {
   }
 }
 
+toggleHambuger = () => {
+  this.setState({
+    open: !this.state.open
+  })
+}
+
+renderBackdrop = () => {
+  if (this.state.open) {
+    return (
+      <>
+      <BackDrop onClick={this.toggleHamburger}/>
+      </>
+    )
+  }
+}
+
 renderSideDrawer = () => {
   return (
     <>
       <SideDrawer
-        show={this.state.open}
+        open={this.state.open}
         toggleHamburger={this.toggleHamburger}
       />
+      {this.renderBackdrop()}
     </>
   )
 }
@@ -63,7 +81,9 @@ toggleHamburger = () => {
       <div className="App">
         <Navbar
         className={visible ? "navbar is-transparent" : "navbar is-fixed"}
+        toggleHamburger={this.toggleHamburger}
         />
+        {this.renderSideDrawer()}
         <Home/>
       </div>
     );
