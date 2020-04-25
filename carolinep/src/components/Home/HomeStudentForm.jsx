@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/HomeStudentForm.scss'
 
 
 
@@ -42,28 +43,20 @@ export default class HomeStudentForm extends React.Component {
                     <form name='contact' method="POST" class="contact__form" onSubmit={this.handleSubmit}>
                         <input className="input is-info" type="hidden" name="form-name" value="contact" />
                         <p>
-                            <input className="input is-info" type="text" name="name" value={name} onChange={this.handleChange} />
-                            <label>
-                                Your Name:
-                            </label>
+                            <input className="input is-info" type="text" name="name" value={name} onChange={this.handleChange} placeholder="Name"/>
+                            
                         </p>
                         <p>
-                            <input className="input is-info" type="email" name="email" value={email} onChange={this.handleChange} />
-                            <label id='id-label'>
-                                Your Email:
-                            </label>
+                            <input className="input is-info" type="email" name="email" value={email} onChange={this.handleChange} placeholder="Email"/>
+                            
                         </p>
                         <p>
-                            <input className="input is-info" type="Location" name="Location" value={Location} onChange={this.handleChange} />
-                            <label id='id-label'>
-                                Your Location
-                            </label>
+                            <input className="input is-info" type="Location" name="Location" value={Location} onChange={this.handleChange} placeholder="Location"/>
+                            
                         </p>
                         <p>
-                            <textarea className="input is-info messageContainer" name="message" value={message} onChange={this.handleChange} />
-                            <label id='text-label'>
-                                Your Message:
-                            </label>
+                            <textarea className="input is-info messageContainer" name="message" value={message} onChange={this.handleChange} placeholder="Message"/>
+                            
                         </p>
                         <p>
                             <button type="submit" className='send-button'>Send</button>
