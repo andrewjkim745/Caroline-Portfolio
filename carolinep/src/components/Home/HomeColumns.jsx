@@ -3,6 +3,8 @@ import './styles/HomeColumns.scss'
 import QuotesCarousel from './QuotesCarousel'
 import grandpiano from '../../images/grandpiano.jpg'
 import  HomeStudentForm  from './HomeStudentForm'
+import { Juilliard } from './Juilliard'
+import { TeachingPhilosophy } from './TeachingPhilosophy'
 
 
 
@@ -26,17 +28,24 @@ class HomeColumns extends React.Component {
     render() {
         return (
             <>
-                <div class="columns has-padding-small">
+                <div class="columns">
                     <div class="column is-one-third">
                         <img src={grandpiano} />
+                        <Juilliard/>
                     </div>
-                    <div class="column is-one-third has-padding">
+                    <div class="column is-one-third">
+                        <div class="topBotPadding">
                         <h1 class="title has-text-centered">See What people are saying</h1>
+
                         <QuotesCarousel />
+                        </div>
+                        <TeachingPhilosophy/>
+                        
                     </div>
                     <div class="column is-one-third has-padding">
                         <HomeStudentForm />
                     </div>
+
 
                 </div>
 

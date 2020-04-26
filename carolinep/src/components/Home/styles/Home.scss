@@ -12,6 +12,15 @@
 
 
 
+.has-height {
+    height: 60vh;
+}
+
+.topBotPadding {
+    padding: 75px 0;
+}
+
+
 @media only screen and (max-width: 768px) {
     .has-padding {
         padding: 0px;
