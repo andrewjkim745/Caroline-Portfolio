@@ -1,7 +1,6 @@
 import React from 'react'
 import './Styles/SideDrawer.scss'
 import StraightenIcon from '@material-ui/icons/Straighten'
-import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 

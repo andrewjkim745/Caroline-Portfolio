@@ -37,7 +37,7 @@ export default class HomeStudentForm extends React.Component {
 
 
         return (
-            <div>
+            <div class="has-padding-small">
                 <h1 class="title">New Student Form</h1>
                 <div className='form-container'>
                     <form name='contact' method="POST" class="contact__form" onSubmit={this.handleSubmit}>
