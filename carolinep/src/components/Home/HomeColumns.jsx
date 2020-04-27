@@ -5,7 +5,7 @@ import grandpiano from '../../images/grandpiano.jpg'
 import HomeStudentForm from './HomeStudentForm'
 import { Juilliard } from './Juilliard'
 import { TeachingPhilosophy } from './TeachingPhilosophy'
-import juilliard from '../../images/juilliard.jpg'
+import juilliard from '../../images/juilliard.jpeg'
 import yale from '../../images/yale.jpg'
 
 
