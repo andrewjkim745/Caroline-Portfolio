@@ -1,5 +1,4 @@
 import React from 'react'
-import juilliard from '../../images/juilliard.jpg'
 
 
 
