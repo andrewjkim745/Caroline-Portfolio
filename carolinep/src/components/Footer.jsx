@@ -22,7 +22,7 @@ export const Footer = (props) => {
                 </button>
                 </div>
                 <div class="column is-one-third">
-                    <p>© 2019 Caroline Park – All Rights reserved</p>
+                    <p>© 2020 Caroline Park – All Rights reserved</p>
                 </div>
                 <div class="column is-one-third footerLogos">
                     <img src={ffacebook}/>
