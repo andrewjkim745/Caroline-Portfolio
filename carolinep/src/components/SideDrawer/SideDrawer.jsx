@@ -16,7 +16,7 @@ export const SideDrawer = (props) => {
     return (
         <div className={drawerClasses}>
                     <div class="columns is-flex has-padding">
-                            <div class="column is-flex-column">
+                            <div class="icons column is-flex-column">
                             <StraightenIcon/>
                             <InfoIcon/>
                             <ContactMailIcon/>
