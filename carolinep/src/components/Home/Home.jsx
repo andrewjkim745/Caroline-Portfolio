@@ -83,16 +83,16 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                <div class="columns has-padding">
+                <div class="columns has-padding-small">
                     <div class="column">
-                        <figure class="image is-3by3">
+                        <figure class="image is-2by2">
                             <img src={caroline} />
                         </figure>
                         <div class="is-flex has-margin-top">
                             <EmailIcon
                                 fontSize="large"
                             />
-                            <p class='is-size-5 is-size-7-mobile'>EMAIL WITH ANY QUESTIONS OR TO SET UP YOUR TRIAL LESSONS</p>
+                            <p class='is-size-5 is-size-7-mobile'>EMAIL WITH ANY QUESTIONS OR TO SET UP YOUR LESSONS</p>
                         </div>
                     </div>
                     <div class="column">

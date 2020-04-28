@@ -10,8 +10,8 @@ const HomeHeroContainer = props => {
             <div class="opacityContainer">
 
             
-            <h1 className="title is-size-1-fullhd is-size-2-tablet is-primary has-text-white">{props.title}</h1>
-            <h2 className="subtitle is-size-2-fullhd is-size-4-tablet has-text-white has-text-weight-bold">{props.description}</h2>
+            <h1 className="title is-size-1-fullhd is-size-2-tablet is-primary">{props.title}</h1>
+            <h2 className="subtitle is-size-2-fullhd is-size-4-tablet">{props.description}</h2>
             </div>
         </div>
         </div>
