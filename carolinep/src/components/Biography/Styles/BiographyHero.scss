@@ -1,0 +1,29 @@
+.caroline2 {
+    box-shadow: 8px 10px 12px 0px rgba(0,0,0,0.5);
+    margin-left: 30px;
+}
+
+.carolineDiv {
+    background-color: #003e53;
+}
+
+.carolineRightDiv {
+    display: flex !important;
+    align-items: center;
+}
+
+.borderBottom {
+    border-bottom: 5px solid #003e53;
+}
+.has-padding-large {
+    padding: 80px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .caroline2 {
+        margin-left: 0px;
+    }
+    
+}

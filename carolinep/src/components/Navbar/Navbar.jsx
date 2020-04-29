@@ -40,9 +40,10 @@ export const Navbar = (props) => {
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link is-size-3-fullhd is-size-4-desktop is-dark">About</a>
                         <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item" href="https://www.facebook.com/phonefixitNY" target="_blank" rel="noopener noreferrer">
+                        <Link to="/Biography" className="navbar-item">
+                                
                                 <p>Biography</p>
-                            </a>
+                        </Link>
                             <a class="navbar-item" href="https://www.instagram.com/phonefixit/" target="_blank" rel="noopener noreferrer" >
                                 <p>Credentials</p>
                             </a>

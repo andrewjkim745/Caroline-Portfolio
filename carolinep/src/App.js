@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import  {Navbar} from './components/Navbar/Navbar'
-import  Home  from './components/Home/Home'
 import { SideDrawer } from './components/SideDrawer/SideDrawer'
 import { BackDrop } from './components/SideDrawer/BackDrop'
 import { Footer } from './components/Footer'
+import { Routes } from './routes/index.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -85,7 +85,7 @@ toggleHamburger = () => {
         toggleHamburger={this.toggleHamburger}
         />
         {this.renderSideDrawer()}
-        <Home/>
+        <Routes/>
         <Footer/>
       </div>
     );
