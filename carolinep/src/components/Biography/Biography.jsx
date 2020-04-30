@@ -22,6 +22,7 @@ export const BiographyHero = (props) => {
             </div>
             <Fade right duration={4000} delay={2000}>
             <div class="column carolineRightDiv"> 
+            
                 <div class="container has-text-centered has-padding-small">
                     <h1 class="title is-size-1">About Caroline</h1>
                     <div class="divider has-padding-small"></div>
@@ -30,7 +31,7 @@ export const BiographyHero = (props) => {
                     </div>
                     <p class="subtitle">-Fanfare</p>
                 </div>
-            </div>
+                </div>  
             </Fade>
         </div>
         <BiographyText
