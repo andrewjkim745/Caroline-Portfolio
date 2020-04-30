@@ -1,6 +1,7 @@
 .caroline2 {
     box-shadow: 8px 10px 12px 0px rgba(0,0,0,0.5);
     margin-left: 30px;
+    max-width: 500px;
 }
 
 .carolineDiv {
@@ -19,11 +20,27 @@
     padding: 80px;
 }
 
+.H {
+    font-family: 'Euphoria Script', cursive;
+    line-height: .5;
+}
 
+.divider {
+    border-top: 2px solid yellow;
+}
 
+.no-margin-bot {
+    margin-bottom: 0 !important;
+}
+
+.react-reveal {
+    display: flex;
+    align-items: center;
+}
 @media only screen and (max-width: 768px) {
     .caroline2 {
         margin-left: 0px;
+        max-width: 300px;
     }
     
 }
