@@ -44,9 +44,9 @@ export const Navbar = (props) => {
                                 
                                 <p>Biography</p>
                         </Link>
-                            <a class="navbar-item" href="https://www.instagram.com/phonefixit/" target="_blank" rel="noopener noreferrer" >
+                            <Link to="/Credentials" class="navbar-item" >
                                 <p>Credentials</p>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
