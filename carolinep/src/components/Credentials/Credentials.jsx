@@ -2,6 +2,7 @@ import React from 'react'
 import ysm from '../../images/ysm.jpg'
 import juilliard2 from '../../images/juilliard2.jpg'
 import Slide from 'react-reveal/Slide'
+import { CredentialsText } from './CredentialsText'
 
 
 
@@ -10,26 +11,24 @@ import Slide from 'react-reveal/Slide'
 
 export const Credentials = (props) => {
     return (
-        <div class="columns">
-            <div class="column has-background-primary">
-                
-                    <figure class="image is-1by1">
-                    <Slide left>
+        <>
+        <div class="columns has-padding-large has-background-dark">
+            <div class="column">
+                <figure class="image is-1by1">
+                    <Slide left duration={2000}>
                         <img src={ysm} />
-                        </Slide>
-                    </figure>
-
-                
+                    </Slide>
+                </figure>
             </div>
-            <div class="column has-background-primary">
-                
-                    <figure class="image is-1by1">
-                    <Slide right>
+            <div class="column ">
+                <figure class="image is-1by1">
+                    <Slide right  duration={2000}>
                         <img src={juilliard2} />
-                        </Slide>
-                    </figure>
-                
+                    </Slide>
+                </figure>
             </div>
         </div>
+        <CredentialsText/>
+        </>
     )
 }
