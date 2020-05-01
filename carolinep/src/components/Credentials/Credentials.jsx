@@ -12,18 +12,23 @@ export const Credentials = (props) => {
     return (
         <div class="columns">
             <div class="column has-background-primary">
-                <Slide left>
+                
                     <figure class="image is-1by1">
+                    <Slide left>
                         <img src={ysm} />
+                        </Slide>
                     </figure>
-                </Slide>
+
+                
             </div>
             <div class="column has-background-primary">
-                <Slide right>
+                
                     <figure class="image is-1by1">
+                    <Slide right>
                         <img src={juilliard2} />
+                        </Slide>
                     </figure>
-                </Slide>
+                
             </div>
         </div>
     )
