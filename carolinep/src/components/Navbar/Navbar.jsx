@@ -51,9 +51,9 @@ export const Navbar = (props) => {
                     </div>
                 </div>
                 <div class="navbar-end">
-                    <a class='navbar-item is-size-3-fullhd is-size-4-desktop'>
+                    <Link to='/Contact' class='navbar-item is-size-3-fullhd is-size-4-desktop'>
                         Contact
-                    </a>
+                    </Link>
                 </div>
             </div>
         </nav>
