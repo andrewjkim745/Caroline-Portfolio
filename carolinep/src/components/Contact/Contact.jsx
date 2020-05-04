@@ -11,9 +11,8 @@ export default class Contact extends React.Component {
 
 
         this.state = {
-            name: '',
-            email: '',
-            message: '',
+            from_name: '',
+            message_html: '',
             error: false,
         }
     }
@@ -37,6 +36,17 @@ export default class Contact extends React.Component {
         }
     }
 
+    sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('caroline_park', ' template_yiUMpon4', e.target, 'user_bM1dxDmRUANzqK4E9XAWk')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
+
 
 
     render() {
@@ -47,12 +57,12 @@ export default class Contact extends React.Component {
             </div>
             <div class="columns">
                 <ContactForm
+                onSubmit={this.sendEmail}
                 onChange={this.handleChange}
                 emailClass={this.state.error === true ? "input is-danger" : "input"}
                 nameClass="input"
-                name={this.state.name}
-                email={this.state.email}
-                message={this.state.message}
+                name={this.state.from_name}
+                message={this.state.message_html}
                 />
                 <div class="column has-padding-large">
                     <figure class="image is-1by1 ">
