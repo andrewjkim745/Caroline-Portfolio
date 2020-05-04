@@ -25,8 +25,6 @@ export default class Contact extends React.Component {
             [e.target.name] : e.target.value
         })
 
-        console.log(this.state.email)
-
         if (this.state.email.includes("@")) {
             this.setState({
                 error: false
@@ -51,7 +49,7 @@ export default class Contact extends React.Component {
                 <ContactForm
                 onChange={this.handleChange}
                 emailClass={this.state.error === true ? "input is-danger" : "input"}
-                nameClass={this.state.name.length > 1 ? "input" : "input is-danger"}
+                nameClass="input"
                 name={this.state.name}
                 email={this.state.email}
                 message={this.state.message}
