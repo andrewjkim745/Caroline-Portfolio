@@ -2,6 +2,8 @@ import React from 'react'
 import emailjs from 'emailjs-com'
 import { ContactForm } from './ContactForm'
 import pianoart from '../../images/pianoart.JPG'
+import { Backdrop } from '../SideDrawer/BackDrop'
+import { ContactModal } from './ContactModal'
 
 
 
@@ -34,7 +36,10 @@ export default class Contact extends React.Component {
 
     renderModal = () => {
         return (
-            <
+            <>
+            <Backdrop/>
+            <ContactModal/>
+            </>
         )
     }
 
@@ -47,6 +52,8 @@ export default class Contact extends React.Component {
           }, (error) => {
               console.log(error.text);
           });
+          {this.renderModal}
+          {this.resetForm}
       }
 
 
