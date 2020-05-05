@@ -2,7 +2,7 @@ import React from 'react'
 import emailjs from 'emailjs-com'
 import { ContactForm } from './ContactForm'
 import pianoart from '../../images/pianoart.JPG'
-import { Backdrop } from '../SideDrawer/BackDrop'
+import { BackDrop } from '../SideDrawer/BackDrop'
 import { ContactModal } from './ContactModal'
 
 
@@ -16,7 +16,15 @@ export default class Contact extends React.Component {
             from_name: '',
             message_html: '',
             error: false,
+            open: false,
         }
+    }
+
+
+    submitClick = () => {
+        this.setState({
+            open: !this.state.open
+        })
     }
 
 
@@ -35,12 +43,14 @@ export default class Contact extends React.Component {
     }
 
     renderModal = () => {
+        if (this.state.open) {
         return (
             <>
-            <Backdrop/>
+            <BackDrop onClick={this.submitClick}/>
             <ContactModal/>
             </>
         )
+        }
     }
 
     sendEmail = (e) => {
@@ -52,8 +62,7 @@ export default class Contact extends React.Component {
           }, (error) => {
               console.log(error.text);
           });
-          {this.renderModal}
-          {this.resetForm}
+          this.resetForm()
       }
 
 
@@ -72,6 +81,7 @@ export default class Contact extends React.Component {
                 nameClass="input"
                 name={this.state.from_name}
                 message={this.state.message_html}
+                onClick={this.submitClick}
                 />
                 <div class="column has-padding-large">
                     <figure class="image is-1by1 ">
@@ -79,6 +89,7 @@ export default class Contact extends React.Component {
                     </figure>
                 </div>
             </div>
+            {this.renderModal()}
             </>
         )
     }

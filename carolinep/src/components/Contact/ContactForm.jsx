@@ -7,8 +7,9 @@ import React from 'react'
 
 export const ContactForm = (props) => {
     return (
-        <form onSubmit={props.onSubmit}>
+        
         <div class="column has-padding-large">
+            <form onSubmit={props.onSubmit}>
             <div class="field">
                 <label class="label">Name</label>
                 <div class="control">
@@ -37,15 +38,16 @@ export const ContactForm = (props) => {
             <div class="field">
                 <label class="label">Message</label>
                 <div class="control">
-                    <textarea name='message_html' value={props.message} onChange={props.onChange} class="textarea" placeholder="Textarea"></textarea>
+                    <textarea name='message_html' value={props.message} onChange={props.onChange} class="textarea" placeholder="Please include your Email and Phone Number"></textarea>
                 </div>
             </div>
             <div class="field is-grouped">
             <div class="control">
-                <button class="button is-link">Submit</button>
+                <button onClick={props.onClick} class="button is-link">Submit</button>
             </div>
             </div>
+            </form>
         </div>
-        </form>
+        
     )
 }
