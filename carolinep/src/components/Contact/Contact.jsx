@@ -23,23 +23,25 @@ export default class Contact extends React.Component {
         this.setState({
             [e.target.name] : e.target.value
         })
+    }
 
-        if (this.state.email.includes("@")) {
-            this.setState({
-                error: false
-            })
-            
-        } else {
-            this.setState({
-                error: true
-            })
-        }
+    resetForm = () => {
+        this.setState({
+            from_name: '',
+            message_html: ''
+        })
+    }
+
+    renderModal = () => {
+        return (
+            <
+        )
     }
 
     sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('caroline_park', ' template_yiUMpon4', e.target, 'user_bM1dxDmRUANzqK4E9XAWk')
+        emailjs.sendForm('gmail', 'template_yiUMpon4', e.target, 'user_bM1dxDmRUANzqK4E9XAWk')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
