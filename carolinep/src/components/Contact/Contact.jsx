@@ -73,7 +73,7 @@ export default class Contact extends React.Component {
             <div class="container has-text-centered has-padding">
                 <h1 class="title is-size-1">Contact</h1>
             </div>
-            <div class="columns">
+            <div class="columns botMargin">
                 <ContactForm
                 onSubmit={this.sendEmail}
                 onChange={this.handleChange}
