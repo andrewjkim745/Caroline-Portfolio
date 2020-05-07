@@ -3,7 +3,8 @@ import './Styles/SideDrawer.scss'
 import StraightenIcon from '@material-ui/icons/Straighten'
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
-
+import BookIcon from '@material-ui/icons/Book';
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,11 +21,13 @@ export const SideDrawer = (props) => {
                             <StraightenIcon/>
                             <InfoIcon/>
                             <ContactMailIcon/>
+                            <BookIcon/>
                             </div> 
-                        <div class="column is-one-third">
-                            <p class="has-margin-top">Home</p>
-                            <p class="has-margin-top">About</p>
-                            <p class="has-margin-top">Contact</p>
+                        <div class="linksColumn column is-one-third">
+                            <Link to="/" class="has-margin-top">Home</Link>
+                            <Link to="/Biography" class="has-margin-top">About</Link>
+                            <Link to="/Contact" class="has-margin-top">Contact</Link>
+                            <Link to="/Credentials" class="has-margin-top">Credits</Link>
                         </div>
                     </div>
         </div>

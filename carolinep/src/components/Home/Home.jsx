@@ -86,7 +86,7 @@ export default class Home extends Component {
                 <div class="columns has-padding-small">
                     <div class="column">
                         <figure class="image is-2by2">
-                            <img src={caroline} />
+                            <img class="carolineHome" src={caroline} />
                         </figure>
                         <div class="is-flex has-margin-top">
                             <EmailIcon

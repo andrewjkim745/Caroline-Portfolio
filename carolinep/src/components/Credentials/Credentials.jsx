@@ -12,7 +12,7 @@ import { CredentialsText } from './CredentialsText'
 export const Credentials = (props) => {
     return (
         <>
-        <div class="columns has-padding-large has-background-dark">
+        <div class="columns has-padding-larger has-background-dark">
             <div class="column">
                 <figure class="image is-1by1">
                     <Slide left duration={2000}>

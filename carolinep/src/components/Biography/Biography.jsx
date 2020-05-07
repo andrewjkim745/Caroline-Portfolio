@@ -35,7 +35,12 @@ export const BiographyHero = (props) => {
                 </Fade>
             </div>
             <BiographyText
-                text='ailed for “artistry of po­etic and ob­ser­vant sen­si­tiv­ity and Win­ner of the Grand Prix at the Mendelssohn Cup Piano Com­pe­ti­tion in Italy, Caroline Park has won top prizes at nu­mer­ous pres­ti­gious in­ter­na­tional piano com­pe­ti­tions in­clud­ing First Prizes at Les Ren­con­tres In­ter­na­tionales des Je­unes Pi­anistes (Bel­gium), the com­pe­ti­tion in Tau­risano (Italy), and the Ru­bin­stein Piano Com­pe­ti­tion (Paris). Other awards in­clude the West­mont Fel­low­ship at the Mon­tecito In­ter­na­tional Music Fes­ti­val in Santa Bar­bara, Cal­i­for­nia, and a Kathryn Wasser­man Davis $10,000 grant sup­port­ing a con­cert tour of Is­rael. Ms. Vitkauskaite has also won top prizes at six na­tional com­pe­ti­tions in her na­tive coun­try of Lithua­nia.'
+                text='orean-born pianist Caroline Park has established herself in New York and around the world as a performer with brilliant potential.  Praised by the New York Times for her "musical sensitivity, power, and assurance", Ms. Park has performed throughout the United States, Europe, and Asia.  She has performed in New York at Carnegie Weill Recital Hall, Alice Tully Hall, the Metropolitan Museum, Steinway Hall and at Columbia and Yale Universities.'
+                text2="Ms. Park earned her Bachelor's and Master's degrees from the Juilliard School, Yale University and Doctoral degree at Manhattan School of Music.  Among her teachers were Martin Canin, Claude Frank, Peter Frankl, and Solomon Mikowsky."
+                text3="Park's many awards include top prizes at Ibla International Piano Competition, Keyboard Artist International Competition, Artis International Competition, and the Five Towns Music Competition. 
+                She has also received awards such as the Bruce Simmons Award at Yale University, the Willliam Petschek Award, and the L&M Burle Award at The Juilliard School."
+                text4="Ms. Park draws from a wide repertoire ranging from Bach to Schoenberg, Messiaen, Ligeti and beyond.  New music is her main focus and her collaboration on new works with many young composers has often lead to premieres."
+                text5="Ms. Park has more than 10 years of teaching experience.  She started teaching actively at Manhattan School of Music teaching secondary piano.  After receiving her doctoral degree at Manhattan School of Music she became a faculty member at Concordia Conservatory/College."
             />
         </>
     )
