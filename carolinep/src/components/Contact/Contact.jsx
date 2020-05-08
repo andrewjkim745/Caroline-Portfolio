@@ -70,8 +70,9 @@ export default class Contact extends React.Component {
     render() {
         return (
             <>
-            <div class="container has-text-centered has-padding">
+            <div class="container has-text-centered has-padding topMargin">
                 <h1 class="title is-size-1">Contact</h1>
+                <h1>Please fill out your information below and include your Phone Number/Email</h1>
             </div>
             <div class="columns botMargin">
                 <ContactForm
