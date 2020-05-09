@@ -2,9 +2,12 @@ import React from 'react'
 import ysm from '../../images/ysm.jpg'
 import juilliard2 from '../../images/juilliard2.jpg'
 import msm2 from '../../images/msm2.jpg'
+import resume from '../../images/resume.docx'
 import Slide from 'react-reveal/Slide'
 import { CredentialsText } from './CredentialsText'
+import FileViewer from 'react-file-viewer'
 
+const type = 'docx'
 
 
 
@@ -38,6 +41,10 @@ export const Credentials = (props) => {
             </div>
         </div>
         <CredentialsText/>
+        <FileViewer
+            fileType={type}
+            filePath={resume}
+        />
         </>
     )
 }
