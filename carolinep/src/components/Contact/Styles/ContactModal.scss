@@ -23,3 +23,12 @@
 .has-padding-top {
     padding-top: 220px;
 }
+
+
+@media only screen and (max-width: 425px) {
+    .contactModal {
+    width: 300px;
+    height: 300px;
+    }
+    
+}
