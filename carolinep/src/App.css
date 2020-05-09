@@ -7,8 +7,13 @@ h1, h2, h3, p, a{
 }
 
 
+
 @media only screen and (max-width: 425px) {
   .has-padding-larger {
     padding: 20px;
+  }
+
+  .document-container {
+    width: 350px !important;
   }
 }
