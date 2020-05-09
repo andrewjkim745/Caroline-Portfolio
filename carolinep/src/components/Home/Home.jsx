@@ -111,7 +111,7 @@ export default class Home extends Component {
                 </div>
                 <HomeHeroContainer
                     title='About'
-                    description='Renowned soloist, chamber musician, and educator, Caroline Park teaches a large number of students at Concordia College, and in her private studio, where she also offers lessons for Conservatory level pianists and college students. Caroline graduated from The Juilliard School of Music and Yale University.'
+                    description='Renowned soloist, chamber musician, and educator, Caroline Park teaches a large number of students at Concordia College, and in her private studio, where she also offers lessons for Conservatory level pianists and college students. Caroline graduated from The Juilliard School of Music, Yale University, and Manhattan School of Music.'
                     />
                 <HomeColumns/>
             </>

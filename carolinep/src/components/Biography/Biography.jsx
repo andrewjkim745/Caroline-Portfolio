@@ -14,13 +14,13 @@ export const BiographyHero = (props) => {
         <>
             <div class="columns borderBottom no-margin-bot">
                 <div class="column has-padding-small carolineDiv">
-                    <Zoom duration={4000} delay={1500}>
+                    <Zoom duration={4000} delay={500}>
                         <figure class="image is-3by3 ">
                             <img class="caroline2" src={caroline2} />
                         </figure>
                     </Zoom>
                 </div>
-                <Fade right duration={4000} delay={1500}>
+                <Fade right duration={4000} delay={500}>
                     <div class="column carolineRightDiv">
 
                         <div class="container has-text-centered has-padding-small">
