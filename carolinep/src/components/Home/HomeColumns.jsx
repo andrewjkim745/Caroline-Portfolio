@@ -42,30 +42,29 @@ class HomeColumns extends React.Component {
                         </div>
                     </div>
                     <div class="column is-one-third">
-                            <Juilliard
-                                src={juilliard}
-                                content='The Juilliard School is a private performing arts conservatory in New York City. Established in 1905, the school trains about 850 undergraduate and graduate students in dance, drama, and music.'
-                            />
-                        </div>
+                        <TeachingPhilosophy />
+                    </div>
                 </div>
                 <div class="columns">
-
-                        <div class="column is-one-third">
-                            <TeachingPhilosophy />
-                        </div>
-                        <div class="column is-one-third">
-                            <Juilliard
-                                src={yale}
-                                content="Yale University is one the most selective prestigious universities in the country! Caroline not only previously attended The Juilliard School of Music but, also graduated from Yale University."
-                            />
-                        </div>
-                        <div class="column is-one-third">
+                    <div class="column is-one-third">
                         <Juilliard
-                        src={msm}
-                        content="Manhattan School of Music is a private music conservatory in New York City. The school offers bachelor's, master's, and doctoral degrees in the areas of classical and jazz performance and composition, as well as a bachelor's in musical theatre."
+                            src={juilliard}
+                            content='The Juilliard School is a private performing arts conservatory in New York City. Established in 1905, the school trains about 850 undergraduate and graduate students in dance, drama, and music.'
                         />
                     </div>
+                    <div class="column is-one-third">
+                        <Juilliard
+                            src={yale}
+                            content="Yale University is one the most selective prestigious universities in the country! Caroline not only previously attended The Juilliard School of Music but, also graduated from Yale University."
+                        />
                     </div>
+                    <div class="column is-one-third">
+                        <Juilliard
+                            src={msm}
+                            content="Manhattan School of Music is a private music conservatory in New York City. The school offers bachelor's, master's, and doctoral degrees in the areas of classical and jazz performance and composition, as well as a bachelor's in musical theatre."
+                        />
+                    </div>
+                </div>
             </>
         )
     }

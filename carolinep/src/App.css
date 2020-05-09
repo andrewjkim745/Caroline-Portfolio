@@ -6,14 +6,24 @@ h1, h2, h3, p, a{
   padding: 170px;
 }
 
+.has-background-lightBlue {
+  background-color: lightblue;
+}
 
 
-@media only screen and (max-width: 425px) {
+
+@media only screen and (max-width: 500px) {
   .has-padding-larger {
     padding: 20px;
   }
 
   .document-container {
     width: 350px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .has-padding-larger {
+    padding: 50px;
   }
 }
