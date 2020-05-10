@@ -41,7 +41,7 @@ class QuotesSlider extends React.Component {
                         return (
                         <div class='container has-text-centered'>
                             <h1 class="title is-size-4">{quote.quote}</h1>
-                            <h1 class="subtitle is-size-5">{quote.name}</h1>
+                            <h1 class="subtitle is-size-6">{quote.name}</h1>
                         </div>
                         )
                     })}
