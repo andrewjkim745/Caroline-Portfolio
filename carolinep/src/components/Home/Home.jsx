@@ -97,7 +97,7 @@ export default class Home extends Component {
                     </div>
                     <div class="column">
                         <h1 class="title is-size-2 is-size-4-mobile">Piano Lessons</h1>
-                        <div class="box">
+                        <div class="box has-background-lightBlue">
                             <div class="media-content">
                                 <h3 class="title is-size-4 is-size-6-mobile">Best for students who</h3>
                                 {this.renderBullets()}

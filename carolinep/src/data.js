@@ -38,7 +38,7 @@ export const secondBullets = [
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
-        bullet: 'Masterclasses, recitals and other performances'
+        bullet: 'Master classes, recitals and other performances'
     }
 ]
 

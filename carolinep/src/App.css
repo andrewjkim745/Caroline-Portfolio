@@ -10,7 +10,9 @@ h1, h2, h3, p, a{
   background-color: lightblue;
 }
 
-
+.add8e6 {
+  background-color: rgb(#add8e6) !important;
+}
 
 @media only screen and (max-width: 500px) {
   .has-padding-larger {

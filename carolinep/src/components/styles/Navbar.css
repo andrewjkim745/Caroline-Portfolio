@@ -11,6 +11,7 @@
     padding: 0px 20px !important;
     width: 100%;
     transition: transform 0.3s ease-out;
+    background-color: lightblue;
 }
 
 .is-fixed {

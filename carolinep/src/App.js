@@ -81,7 +81,7 @@ toggleHamburger = () => {
     return (
       <div className="App">
         <Navbar
-        className={visible ? "navbar is-transparent" : "navbar is-fixed"}
+        className={visible ? "navbar is-transparent add8e6" : "navbar is-fixed"}
         toggleHamburger={this.toggleHamburger}
         />
         {this.renderSideDrawer()}
