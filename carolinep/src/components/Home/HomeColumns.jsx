@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/HomeColumns.scss'
+import './styles/HomeColumns.css'
 import QuotesCarousel from './QuotesCarousel'
 import grandpiano from '../../images/grandpiano.jpg'
 import HomeStudentForm from './HomeStudentForm'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/ContactModal.scss'
+import './Styles/ContactModal.css'
 
 
 

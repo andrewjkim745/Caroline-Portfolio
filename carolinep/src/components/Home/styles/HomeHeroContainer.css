@@ -4,7 +4,9 @@
 
 
 .opacityContainer {
-    background-color: rgba(antiquewhite,.6);
+    opacity: .6;
+
+    background-color: antiquewhite;
     padding: 2rem;
     border-radius: 1.2rem
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/SideDrawer.scss'
+import './Styles/SideDrawer.css'
 import StraightenIcon from '@material-ui/icons/Straighten'
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';

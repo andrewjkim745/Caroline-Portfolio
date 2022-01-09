@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/HomeStudentForm.scss'
+import './styles/HomeStudentForm.css'
 
 
 

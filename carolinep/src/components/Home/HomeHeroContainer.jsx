@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/HomeHeroContainer.scss";
+import "./styles/HomeHeroContainer.css";
 
 
 const HomeHeroContainer = props => {

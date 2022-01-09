@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import caroline from '../../images/caroline.jpeg'
-import './styles/Home.scss'
+import './styles/Home.css'
 import EmailIcon from '@material-ui/icons/Email';
 import { bullets, secondBullets, thirdBullets } from '../../data'
 import HomeHeroContainer from './HomeHeroContainer'

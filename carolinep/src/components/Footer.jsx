@@ -1,6 +1,6 @@
 import React from 'react' 
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import './styles/Footer.scss'
+import './styles/Footer.css'
 import ffacebook from '../images/ffacebook.png'
 import play from '../images/play.png'
 import fmail from '../images/fmail.png'

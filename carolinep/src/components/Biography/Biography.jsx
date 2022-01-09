@@ -1,6 +1,6 @@
 import React from 'react'
 import caroline2 from '../../images/caroline2.JPG'
-import './Styles/BiographyHero.scss'
+import './Styles/BiographyHero.css'
 import Zoom from 'react-reveal/Zoom';
 import { BiographyText } from './BiographyText'
 import Fade from 'react-reveal/Fade'
