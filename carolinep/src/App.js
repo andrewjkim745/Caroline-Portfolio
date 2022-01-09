@@ -27,18 +27,18 @@ componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
 }
 
-handleScroll = (e) => {
-  if (window.pageYOffset > 40) {
-      console.log('scrolled')
-      this.setState({
-          visible: false, 
-      })
-  } else {
-      this.setState({
-          visible: true,
-      })
-  }
-}
+// handleScroll = (e) => {
+//   if (window.pageYOffset > 40) {
+//       console.log('scrolled')
+//       this.setState({
+//           visible: false, 
+//       })
+//   } else {
+//       this.setState({
+//           visible: true,
+//       })
+//   }
+// }
 
 toggleHambuger = () => {
   this.setState({
