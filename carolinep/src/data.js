@@ -30,7 +30,7 @@ export const secondBullets = [
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
-        bullet: 'Competiions and Recitals'
+        bullet: 'Competitions and Recitals'
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
