@@ -5,6 +5,8 @@ import { SideDrawer } from './components/SideDrawer/SideDrawer'
 import { BackDrop } from './components/SideDrawer/BackDrop'
 import { Footer } from './components/Footer'
 import { Routes } from './routes/index.js'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,26 +21,15 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-    console.log(window.pageYOffset)
+    AOS.init({
+      duration: 2000
+    })
 }
 
 componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
 }
 
-// handleScroll = (e) => {
-//   if (window.pageYOffset > 40) {
-//       console.log('scrolled')
-//       this.setState({
-//           visible: false, 
-//       })
-//   } else {
-//       this.setState({
-//           visible: true,
-//       })
-//   }
-// }
 
 toggleHambuger = () => {
   this.setState({

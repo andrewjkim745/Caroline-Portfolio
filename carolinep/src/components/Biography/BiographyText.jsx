@@ -7,7 +7,7 @@ import React from 'react'
 export const BiographyText = (props) => {
     return (
         <div class="has-background-dark">
-        <div class="container has-text-centered has-padding-large has-background-white">
+        <div class="container has-text-centered has-padding-small has-background-white">
             <div>
             <p class="bio is-size-4 is-size-6-mobile">
                 <span class="H has-text-weight-bold is-size-1">

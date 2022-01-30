@@ -30,7 +30,7 @@ export const secondBullets = [
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
-        bullet: 'Competiions and Recitals'
+        bullet: 'Competions and Recitals'
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
@@ -62,22 +62,22 @@ export const quotes = [
     {
         id: 1,
         quote: 'Very serious about her work and commitments, Caroline Park helped my daughter win 1st place at her most recent competition!',
-        name: '"___Peter H."'
+        name: '"Peter H."'
     },
     {
         id: 2,
         quote: 'Caroline has a very strong background in music and I am comfortable knowing my son is in good hands',
-        name: '"___Andrew K."'
+        name: '"Andrew K."'
     },
     {
         id: 3,
         quote: "Prices for lessons are very reasonable and the quality of teaching is very high. I highly recommend Caroline if you are serious about learning piano",
-        name: '"___Sherry H."'
+        name: '"Sherry H."'
     },
     {
         id: 4,
         quote: "My daughter immediately got first at her most recent competition after she started taking lessons from Caroline. Great teacher who knows when to be strict while also being understanding of limitations",
-        name: '"___Louise K."'
+        name: '"Louise K."'
     }
 ]
 

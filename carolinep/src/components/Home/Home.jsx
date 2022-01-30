@@ -6,17 +6,20 @@ import { bullets, secondBullets, thirdBullets } from '../../data'
 import HomeHeroContainer from './HomeHeroContainer'
 import HomeColumns from './HomeColumns'
 import HomeStudentForm from './HomeStudentForm'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 export default class Home extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-
+            loaded: false
         }
     }
 
-
+    componentDidMount() {
+    }
 
     renderBullets = () => {
         return (
@@ -85,15 +88,18 @@ export default class Home extends Component {
             <>
                 <div class="columns has-padding-small">
                     <div class="column">
-                        <figure class="image is-2by2">
-                            <img class="carolineHome" src={caroline} />
+                         <figure  data-aos='fade-in' data-aos-once='true' class="image is-2by2">
+                             <Skeleton width={400} height={550} style={this.state.loaded ? {display: 'none'} : {}}/>
+                            <img  style={this.state.loaded ? null : {display: 'none'}} onLoad={() => this.setState({loaded: true})} data-aos='fade-in' class="carolineHome" src={caroline}/>
                         </figure>
-                        <div class="is-flex has-margin-top">
-                            <EmailIcon
-                                fontSize="large"
-                            />
-                            <p class='is-size-5 is-size-7-mobile'>EMAIL WITH ANY QUESTIONS OR TO SET UP YOUR LESSONS</p>
-                        </div>
+                        {this.state.loaded === false ? <Skeleton/> : <div data-aos='fade-in' data-aos-once='true' class="is-flex has-margin-top">
+                        
+                        <EmailIcon
+                            fontSize="large"
+                        />
+                        <p  class='is-size-5 is-size-7-mobile'>EMAIL WITH ANY QUESTIONS OR TO SET UP YOUR LESSONS</p>
+                    </div>}
+             
                     </div>
                     <div class="column">
                         <h1 class="title is-size-2 is-size-4-mobile">Piano Lessons</h1>
