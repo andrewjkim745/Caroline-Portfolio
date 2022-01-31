@@ -11,3 +11,5 @@ ReactDOM.render(
         </Router>,
     document.getElementById('root')
 );
+
+//"react-scripts --openssl-legacy-provider start"

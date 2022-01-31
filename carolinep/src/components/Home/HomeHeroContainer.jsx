@@ -11,7 +11,7 @@ const HomeHeroContainer = props => {
 
             
             <h1 className="title is-size-1-fullhd is-size-2-tablet is-primary">{props.title}</h1>
-            <h2 className="subtitle is-size-2-fullhd is-size-4-tablet">{props.description}</h2>
+            <h2 className="subtitle is-size-2-fullhd is-size-4-tablet is-size-6-mobile">{props.description}</h2>
             </div>
         </div>
         </div>

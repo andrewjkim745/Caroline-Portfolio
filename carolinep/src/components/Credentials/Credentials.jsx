@@ -3,7 +3,6 @@ import ysm from '../../images/ysm.jpg'
 import juilliard2 from '../../images/juilliard2.jpg'
 import msm2 from '../../images/msm2.jpg'
 import resume from '../../images/resume.docx'
-import Slide from 'react-reveal/Slide'
 import { CredentialsText } from './CredentialsText'
 import FileViewer from 'react-file-viewer'
 
@@ -19,24 +18,18 @@ export const Credentials = (props) => {
         <>
         <div class="columns has-padding-larger">
             <div class="column">
-                <figure class="image is-1by1">
-                    <Slide left duration={2000}>
+                <figure data-aos="fade-left" class="image is-1by1">
                         <img src={ysm} />
-                    </Slide>
                 </figure>
             </div>
             <div class="column">
-                <figure class="image is-1by1">
-                    <Slide right  duration={2000}>
-                        <img src={juilliard2} />
-                    </Slide>
+                <figure data-aos="fade-down" data-aos-delay='500' class="image is-1by1">
+                        <img src={juilliard2} />                 
                 </figure>
             </div>
             <div class="column">
-                <figure class="image is-1by1">
-                    <Slide left duration={2000}>
+                <figure data-aos="fade-right" class="image is-1by1">           
                         <img src={msm2}/>
-                    </Slide>
                 </figure>
             </div>
         </div>
