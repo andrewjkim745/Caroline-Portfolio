@@ -1,6 +1,14 @@
-h1, h2, h3, p, a{
-  font-family: 'Lora', serif;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  font-family: 'Josefin Sans', cursive !important;
 }
+
+
+
+/* h1, h2, h3, p, a{
+  font-family: 'Lora', serif;
+} */
 
 .has-padding-larger {
   padding: 170px;

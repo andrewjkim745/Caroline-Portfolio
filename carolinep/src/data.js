@@ -30,11 +30,7 @@ export const secondBullets = [
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
-<<<<<<< HEAD
-        bullet: 'Competions and Recitals'
-=======
         bullet: 'Competitions and Recitals'
->>>>>>> 2f7f3b21dbccc1a1948d0f033f77337e2b5847e8
     },
     {
         src: 'https://i.imgur.com/d1uKWeN.png',
